@@ -4,6 +4,10 @@ using UnityEngine;
 public class Wander03 : MonoBehaviour{
     public float moveSpeed; 
     public Transform target;
+
+    public int damage;
+
+    public GameObject pcHealth;
 void Update(){
    
 }
@@ -45,5 +49,23 @@ void OnTriggerStay(Collider other)
         }
 
 	}
+
+    void OnCollisionEnter(Collision other)
+	{		
+
+		if(other.gameObject.name == "Player"){
+            var hit = other.gameObject;
+		    var health = hit.GetComponent<playerHealth>();
+            print("Wolf is attacking!");
+
+		    if(pcHealth != null){
+                
+			    // pcHealth.TakeDamage(damage);
+                pcHealth.gameObject.GetComponent<playerHealth>().TakeDamage(damage);
+		    }	
+        }
+		
+	}
+
 
 } 

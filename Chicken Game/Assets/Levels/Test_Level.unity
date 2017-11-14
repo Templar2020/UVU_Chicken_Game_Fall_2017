@@ -925,7 +925,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &1014969080
 GameObject:
@@ -2405,6 +2405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   target: {fileID: 908974272}
+  damage: 1
+  pcHealth: {fileID: 416695293}
 --- !u!65 &1922736138
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -7,11 +7,6 @@ public class wolfAI : MonoBehaviour {
 	public Transform target;
 	public int damage;
 
- 
-
-
-
-
 	
 	void OnTriggerStay(Collider other)
 	{
