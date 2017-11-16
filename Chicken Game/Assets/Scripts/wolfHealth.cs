@@ -14,7 +14,7 @@ public class wolfHealth : MonoBehaviour {
 		if(currentHealth <= 0){
 			//Keep score at zero
 			currentHealth=0;
-			print("Wolf is Dead!");
+			print("Wolf is Dead!");		
 			// Add points to score for killing wolf	
 			scoreManager.AddPoints(points);
 			//Move wolf to spawn point for restart
