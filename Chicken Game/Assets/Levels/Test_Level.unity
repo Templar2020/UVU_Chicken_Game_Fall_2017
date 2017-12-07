@@ -689,9 +689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f02d22f6cbe5e1c4a8aec8d05fe85890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScore: 20
-  scoreManager: {fileID: 1502560358}
-  winText: {fileID: 1358768207}
 --- !u!1 &469899941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,8 +2034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b602d2d6abef74199c57b71389de91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreAmount: 0
+  winScore: 10
   text: {fileID: 1502560360}
+  winText: {fileID: 1358768207}
 --- !u!1 &1525501313
 GameObject:
   m_ObjectHideFlags: 0
